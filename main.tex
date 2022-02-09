@@ -1,0 +1,71 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{aliascnt}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{microtype}
+\usepackage{mleftright}
+\usepackage{parskip}
+\usepackage{scalerel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{comment}
+\graphicspath{ {./} }
+\usepackage[english]{babel}
+\usepackage{datetime}
+
+\usepackage[english]{babel} \usepackage{hyperref} \usepackage{float}
+\usepackage[utf8]{inputenc} \usepackage{amsmath} \usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes} \usepackage{tikz}
+\usepackage{pdfpages} \usepackage{listings}
+\usepackage{graphicx} \usepackage{mathptmx} \usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[nottoc]{tocbibind}
+\usepackage{geometry}
+\usepackage{listings}
+% use UTF8 encoding
+\usepackage[utf8]{inputenc}
+% use KoTeX package for Korean
+\usepackage{kotex}
+
+\usepackage{color} % for colored text
+\usepackage{import} % for changing current dir
+\usepackage{datetime} % for displaying version number and date
+\usepackage{wrapfig} % for having text alongside pictures
+\usepackage{array} % compatibility check
+\usepackage{multirow}
+\usepackage{blindtext}
+\usepackage{layouts}
+\usepackage{enumitem}
+
+
+%size of paper, side margins
+\geometry{a4paper, margin=1.2in}
+
+\usetikzlibrary{arrows,positioning,shapes.geometric}
+
+\title{\Huge \Huge CSE 학생지원단 조직 개요}
+
+\author{전웅배(20161248) woongbae@unist.ac.kr \normalsize}
+
+\date{}
+
+\begin{document} \maketitle
+
+Initially written at : \formatdate{29}{01}{2022}\\
+Lastly revised at : \date{\today}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\import{./supporters-goal}{goal.tex}
+\import{./supporters-organize}{organize.tex}
+\import{./supporters-events}{events.tex}
+\import{./supporters-misc}{misc.tex}
+
+
+\end{document}
+
